@@ -1,12 +1,12 @@
-
+let basepath = window.location.origin + window.location.pathname;
 
 // images setup
 const images = [
-  "../img/1.jpg",
-  "../img/2.jpg",
-  "../img/3.jpg",
-  "../img/4.jpg",
-  "../img/5.jpg",
+  basepath + "/img/1.jpg",
+  basepath + "/img/2.jpg",
+  basepath + "/img/3.jpg",
+  basepath + "/img/4.jpg",
+  basepath + "/img/5.jpg",
 ];
 
 // content setup
